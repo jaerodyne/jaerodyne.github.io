@@ -1,3 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
-  background-color: blue;
+ font-family: Helvetica;
+ background-image: url("powerpuff-girls.jpg");
+ background-size: 500px 270px;
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+ background-position: 100% 100%;
+ z-index: -1;
+}
+
+h1 {
+  padding: 5px;
+}
+
+ul {
+  margin: 10px;
+  padding: 10px;
+}
+
+.padded {
+  margin: 5px;
+  padding: 5px;
+  text-align: center;
+  font-style: italic;
+}
+
+p#citation {
+  text-align: center;
+  font-family: TimesNewRoman;
+}
+
+h1#inclusive {
+  text-align: center;
+  font-family: TrebuchetMS;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+
+img {
+  width: 400px;
+  height: 400px;
+}
+
+img#powerpuffs {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid #000000;
+  padding-top: 1px;
+  width: 45%;
+  height: 45%;
+}
+
+p.text {
+  text-align: center;
+}
+
+.other {
+  padding: 5px;
+}
+
+.user-persona{
+  padding: 5px;
+}
+
+a:hover {
+  color: e4e6e5;
+}
+
+table {
+  background-color: white;
+    width: 50%;
+  height: 50%;
+}
+
+@media screen and (max-width: 800px) {
+  body {
+    background-image: none;
+  }
+  tr#powertable{
+    display: none;
+  }
 }
