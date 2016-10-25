@@ -2,6 +2,7 @@ body {
 	font-family: sans-serif;
 	font-size: 32px;
 	height: 100%;
+	background-color: #111111;
 }
 
 .container {
@@ -25,6 +26,7 @@ body {
 }
 
 #construction {
+  font-family: 'Proza Libre', sans-serif;
   text-transform: uppercase;
   -webkit-animation-duration: 4s;
   -webkit-animation-delay: 1s;
