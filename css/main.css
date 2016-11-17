@@ -1,5 +1,5 @@
 body {
-  font-family: sans-serif;
+  font-family: 'Proza Libre', sans-serif;
   font-size: 24px;
   height: 100%;
   background-color: #444444;
@@ -10,18 +10,21 @@ body {
 }
 
 .home {
-  /*border: solid 1px black;*/
   text-align: center;
+  padding-top: 12em;
+  padding-bottom: 10em;
 }
 
 ul.home-nav {
   list-style-type: none;
   display: inline-block;
   margin: 0 auto;
+  text-transform: uppercase;
 }
 
 .home-nav li:not(:first-child):before {
     content: " | ";
+    color: white;
 }
 
 .home-nav li {
@@ -30,9 +33,12 @@ ul.home-nav {
 
 .home-nav li a {
   text-align: center;
+  padding: 1em;
+  color: white;
 }
 
 h1.name {
+  font-family: sans-serif;
   background-blend-mode: normal;
   background-color: black;
   -webkit-animation-duration: 2s;
@@ -63,4 +69,12 @@ h2.construction {
 
 #separator {
   width: 50%;
+}
+
+footer {
+  background-color: white;
+  width: 100%;
+  height: 100%;
+  padding: 0 auto;
+  border: solid black 1px;
 }
