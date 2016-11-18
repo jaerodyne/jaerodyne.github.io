@@ -97,3 +97,31 @@ footer {
 a {
   color:#84abcf;
 }
+
+/*SKILLS GRID*/
+
+.skills {
+  text-align: center;
+}
+
+.skills li {
+  /*text-align: center;*/
+  display: inline;
+  list-style-type: none;
+  /*clearfix: auto;*/
+}
+
+.skills li:not(:last-child):after {
+    content: " | ";
+    color: white;
+}
+
+.skills img {
+  height: 100px;
+  width: 100px;
+}
+
+.skills-list li:nth-child(3):after { 
+  /*content:"\A"; */
+  /*white-space:pre;  */
+}
