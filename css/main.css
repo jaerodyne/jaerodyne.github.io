@@ -1,43 +1,80 @@
 body {
-    margin: 60px auto;
-    width: 70%;
+  font-family: 'Proza Libre', sans-serif;
+  font-size: 24px;
+  height: 100%;
+  background-color: #444444;
+  background-image: url("img/under-construction.jpeg");
+  background-size: 1700px 1000px;
+  background-repeat: no-repeat;
+  background-blend-mode: lighten;
 }
-nav ul, footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    padding: 0px;
-    list-style: none;
-    font-weight: bold;
+
+.home {
+  text-align: center;
+  padding-top: 12em;
+  padding-bottom: 10em;
 }
-nav ul li, footer ul li {
-    display: inline;
-    margin-right: 20px;
+
+ul.home-nav {
+  list-style-type: none;
+  display: inline-block;
+  margin: 0 auto;
+  text-transform: uppercase;
 }
-a {
-    text-decoration: none;
-    color: #999;
+
+.home-nav li:not(:first-child):before {
+    content: " | ";
+    color: white;
 }
-a:hover {
-    text-decoration: underline;
+
+.home-nav li {
+  float: left;
 }
-h1 {
-    font-size: 3em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+
+.home-nav li a {
+  text-align: center;
+  padding: 1em;
+  color: white;
 }
-p {
-    font-size: 1.5em;
-    line-height: 1.4em;
-    color: #333;
+
+h1.name {
+  font-family: sans-serif;
+  background-blend-mode: normal;
+  background-color: black;
+  -webkit-animation-duration: 2s;
+  -webkit-animation-delay: 0s;
+  -webkit-animation-iteration-count: 1;
+  background: -webkit-linear-gradient(#fff, #cebc95);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-transform: uppercase;
+  font-size: 92px;
+  margin: 0 auto;
+  padding: 0 auto;
 }
+
+h2.construction {
+  font-family: 'Proza Libre', sans-serif;
+  text-transform: uppercase;
+  -webkit-animation-duration: 7s;
+  -webkit-animation-delay: 2s;
+  -webkit-animation-iteration-count: infinite;
+  font-size: 32px;
+  width: 400px;
+  color: #ccc;
+  opacity: 0;
+  display: inline-block;
+  margin: 0 auto;
+}
+
+#separator {
+  width: 50%;
+}
+
 footer {
-    border-top: 1px solid #d5d5d5;
-    font-size: .8em;
-}
-
-ul.posts { 
-    margin: 20px auto 40px; 
-    font-size: 1.5em;
-}
-
-ul.posts li {
-    list-style: none;
+  background-color: white;
+  width: 100%;
+  height: 100%;
+  padding: 0 auto;
+  border: solid black 1px;
 }
