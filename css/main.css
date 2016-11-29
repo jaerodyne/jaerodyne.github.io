@@ -125,3 +125,7 @@ a {
   /*content:"\A"; */
   /*white-space:pre;  */
 }
+
+.portfolio-header {
+  text-align: center;
+}
