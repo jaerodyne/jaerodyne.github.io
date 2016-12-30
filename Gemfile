@@ -3,3 +3,4 @@ gem 'github-pages', group: :jekyll_plugins
 gem 'jekyll'
 gem 'bourbon'
 gem 'neat'
+gem 'bitters'
