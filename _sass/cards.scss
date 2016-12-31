@@ -33,7 +33,7 @@
 
   .card-image {
     background-color: $card-image-hover-color;
-    height: 225x;
+    height: 225px;
     max-height: 225px;
     overflow: hidden;
 
@@ -83,4 +83,18 @@
       background-color: $card-background;
     }
   }
+}
+
+.git-style {
+  text-align: center;
+  color: black;
+  font-family: $base-font-family;
+
+    a {
+      color: inherit;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
 }
