@@ -3,6 +3,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  padding-top: 2em;
 }
 
 .card {
@@ -180,4 +181,12 @@
   }
 
   @include reset-display();
+}
+
+// .skills-content {
+//   padding-top: 2em;
+// }
+
+.about-content {
+  padding-top: 2em;
 }
