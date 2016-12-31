@@ -4,7 +4,7 @@ email: jsomera@gmail.com
 description: >
   A guide to getting started with Jekyll.
 baseurl: ""
-url: "http://localhost:4000/portfolio"
+url: "http://localhost:4000"
 github_username:  jaerodyne
 # Build Settings
 sass:
