@@ -17,8 +17,8 @@
   $card-background: lighten($card-border-color, 10%);
   $card-header-background: $card-background;
   $card-margin: 1em;
-  $card-image-hover-opacity: 0.7;
-  $card-image-hover-color: #F8F2B4;
+  $card-image-hover-opacity: 0.5;
+  $card-image-hover-color: #000;
 
   background-color: $card-background;
   border: $card-border;
@@ -65,6 +65,11 @@
       color: black;
       margin: 0 0 ($base-spacing / 2);
     }
+
+    p:focus, p:hover {
+      cursor: default;
+    }
+
   }
 
   &:focus,
