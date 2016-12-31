@@ -16,10 +16,14 @@
   $modal-image-height: 135px;
   $modal-image-width: $modal-image-height;
   $modal-trigger-image-width: 300px;
+  margin-left: 30%;
+  margin-right: 25%;
+  margin-top: 2em;
 
   label {
     cursor: pointer;
     margin-bottom: 0;
+    width: 300px;
   }
 
   label img {
@@ -34,6 +38,10 @@
 
   .modal-trigger {
     padding: 0.8em 1em;
+    background-color: #1565c0;
+    width: 300px;
+    height: 55px;
+    border-radius: 8px;
   }
 
   .modal-fade-screen { // overlay
