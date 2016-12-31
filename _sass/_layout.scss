@@ -3,17 +3,15 @@ body {
   font-size: 24px;
   color: white;
   height: 100%;
-  background-color: #444444;
-  background-image: url("../img/under-construction.jpeg");
-  background-size: 1700px 1000px;
-  background-repeat: no-repeat;
-  background-blend-mode: lighten;
+  width: 100%;
+  background-blend-mode:darken;
+  background-image: url("../img/we9nuw7tmmk-nadir-balcikli.jpg");
+  background-size: 100%;
+  background-repeat: repeat-y;
 }
 
 .home {
   text-align: center;
-  padding-top: 12em;
-  padding-bottom: 10em;
 }
 
 ul.home-nav {
@@ -21,15 +19,12 @@ ul.home-nav {
   display: inline-block;
   margin: 0 auto;
   text-transform: uppercase;
-}
-
-.home-nav li:not(:first-child):before {
-    content: " | ";
-    color: white;
+  font-size: 24px;
 }
 
 .home-nav li {
   float: left;
+  padding: 0 auto;
 }
 
 .home-nav li a {
@@ -41,17 +36,18 @@ ul.home-nav {
 h1.name {
   font-family: sans-serif;
   background-blend-mode: normal;
-  background-color: black;
+  background-color: white;
   -webkit-animation-duration: 2s;
   -webkit-animation-delay: 0s;
   -webkit-animation-iteration-count: 1;
-  background: -webkit-linear-gradient(#fff, #cebc95);
+  background: -webkit-linear-gradient(#fff, #fff);
+  text-shadow: 2px 2px 4px #84abcf;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   text-transform: uppercase;
   font-size: 92px;
   margin: 0 auto;
-  padding: 0 auto;
+  padding: 2 auto;
 }
 
 h2.construction {
@@ -86,12 +82,11 @@ nav ul li, footer ul li {
 }
 
 footer {
-  width: 100%;
-  height: 100%;
-  padding: 0 auto;
-  /*border: solid black 1px;*/
-  /*opacity: 0.7;*/
-  margin: 0 auto;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0 10px;
 }
 
 a {
@@ -102,32 +97,25 @@ a {
 
 .skills {
   text-align: center;
+  padding-top: 1em;
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+
+  ul {
+    border: solid 1px white;
+    background-color: #bbb;
+    opacity: 0.8;
+  }
+
+  li {
+    display: inline;
+    list-style-type: none;
+  }  
 }
 
-.skills li {
-  /*text-align: center;*/
-  display: inline;
-  list-style-type: none;
-  /*clearfix: auto;*/
-}
-
-.skills li:not(:last-child):after {
-    content: " | ";
-    color: white;
-}
-
-.skills img {
-  height: 100px;
-  width: 100px;
-}
-
-.skills-list li:nth-child(3):after { 
-  /*content:"\A"; */
-  /*white-space:pre;  */
-}
-
-.portfolio-header {
-  text-align: center;
+button.resume {
+  margin-top: 2em;
 }
 
 
