@@ -5,8 +5,8 @@ body {
   height: 100%;
   background-color: #444444;
   background-image: url("../img/sb5yutjybrm-alejandro-garrido-navarro.jpg");
-  background-size: 1700px 1000px;
-  background-repeat: repeat-y;
+  background-size: 2500px 1200px;
+  background-repeat: repeat;
   background-blend-mode: screen;
 }
 
@@ -45,7 +45,8 @@ h1.name {
   -webkit-animation-duration: 2s;
   -webkit-animation-delay: 0s;
   -webkit-animation-iteration-count: 1;
-  background: -webkit-linear-gradient(#fff, #fff);
+  // background: -webkit-linear-gradient(#fff, #fff);
+  text-shadow: 2px 2px 4px black;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   text-transform: uppercase;
