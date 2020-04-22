@@ -1,15 +1,10 @@
-# Site Settings
-title: Jillian Somera Portfolio
+title: Your awesome title
+author: jaerodyne
 email: jsomera@gmail.com
-description: >
-  A guide to getting started with Jekyll.
-baseurl: ""
-url: "http://localhost:4000"
-github_username:  jaerodyne
-# Build Settings
-sass:
-  sass_dir: _sass
-include: ['_pages']
-kramdown:
-  input: GFM
-theme: jekyll-theme-hacker
+description: > # this means to ignore newlines until "baseurl:"
+  Jillian Somera's Portfolio Website
+# social links
+twitter_username: your-twitter-handle # DO NOT include the @ character, or else the build will fail!
+github_username:  your-github-handle # DO NOT include the @ character, or else the build will fail!
+
+show_excerpts: true # set to false to remove excerpts on the homepage
